@@ -5,8 +5,7 @@ while(true){
 	
 	var actual_sec_level = getServerSecurityLevel(host);
 
-	// If sec level reaches 3 times the minimum,
-	// weaken server untill minimum
+	// If sec level reaches 10m weaken server untill minimum
 	if(actual_sec_level >= 10){
 		while(actual_sec_level > min_sec_level){
 			weaken(host);
