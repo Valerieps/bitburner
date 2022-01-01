@@ -4,7 +4,7 @@ tprint("Weakening this servers:" + servers);
 
 
 var i = 0;
-// for each server on the list, get minimum sec, weaken to minimum, trace subnets and do
+// for each server on the list, get minimum sec, weaken 5 times
 for (i = 0; i < servers.length; i = i + 1) {
 	var working_server = servers[i];
 	tprint("Working on:" + working_server);
